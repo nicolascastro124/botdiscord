@@ -48,7 +48,6 @@ client.on('interactionCreate', (int) => {
 
 setInterval(function() {
   var hoy = new Date();
-  var a
   var hora = hoy.getHours() + ':' + hoy.getMinutes() + ':' + hoy.getSeconds();
   var dia = hoy.getDay()
 
@@ -59,7 +58,7 @@ setInterval(function() {
     }
   }
 
-}, 1000 * 60)
+}, 1000 )
 
 
 client.login(mySecret);
