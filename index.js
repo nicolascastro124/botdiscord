@@ -57,6 +57,7 @@ setInterval(function() {
       client.channels.resolve(process.env['GENERAL']).send("Una nueva semana ha comenzado, el limite de recompensa de algunas raids se ha restablecido.:alarm_clock::alarm_clock::alarm_clock::warning:");
     }
   }
+  client.channels.resolve(process.env['GENERAL']).send(hora);
 
 }, 1000 )
 
