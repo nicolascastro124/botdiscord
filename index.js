@@ -34,7 +34,7 @@ setInterval(function() {
     client.channels.resolve(process.env['GENERAL']).send("¡El día se ha reiniciado, es hora de quemar el FP! 🔥 ⏰");
   
   }
-  if(dia == '1'){
+  if(hora == '1:0:0' && dia == '1'){
     client.channels.resolve(process.env['GENERAL']).send("Una nueva semana ha comenzado, el limite de recompensa de algunas raids se ha restablecido.:alarm_clock::alarm_clock::alarm_clock::warning:");
   } 
   
